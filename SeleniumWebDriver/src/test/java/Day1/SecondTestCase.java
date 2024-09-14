@@ -2,6 +2,7 @@ package Day1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 /*1) Launch browser (chrome)
 2) Open URL  https://demo.nopcommerce.com/
@@ -15,7 +16,8 @@ public class SecondTestCase {
 
 	public static void main(String[] args) {
 		
-		WebDriver driver=new ChromeDriver(); //For chrome browser
+		//WebDriver driver=new ChromeDriver(); //For chrome browser
+		WebDriver driver=new EdgeDriver();
 		
 		//2) Open URL  https://demo.opencart.com/
 				
