@@ -13,8 +13,11 @@ public class LocatorDemo {
 		
 		driver.get("https://demo.opencart.com/");
 		//name
-		WebElement searchBox=driver.findElement(By.name("search"));
-		searchBox.sendKeys("MacBook");
+		// WebElement searchBox=driver.findElement(By.name("search"));
+		// searchBox.sendKeys("MacBook");
+		
+		driver.findElement(By.name("search")).sendKeys("MacBook");   // single step
+
 
 
 	}
