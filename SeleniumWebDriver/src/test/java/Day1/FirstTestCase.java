@@ -2,6 +2,7 @@ package Day1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 /*
 Test case
@@ -20,7 +21,8 @@ public class FirstTestCase {
 		// ChromeDriver driver=new ChromeDriver();
 		//Chrome Browser
 		
-	WebDriver driver=new ChromeDriver(); //For chrome browser
+	//WebDriver driver=new ChromeDriver(); //For chrome browser
+	WebDriver driver=new FirefoxDriver(); //For Forefox browser
 				
 		//2) Open URL  https://demo.opencart.com/
 				
