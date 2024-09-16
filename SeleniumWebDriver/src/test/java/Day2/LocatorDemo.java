@@ -17,12 +17,20 @@ public class LocatorDemo {
 		// searchBox.sendKeys("MacBook");
 		
 		// driver.findElement(By.name("search")).sendKeys("MacBook");   // single step
+		
 		//id
-		WebElement logo=driver.findElement(By.id("logo"));
+		
+		//WebElement logo=driver.findElement(By.id("logo"));
 		//boolean status=logo.isDisplayed();
 		
-		boolean status=driver.findElement(By.id("logo")).isDisplayed();
-				System.out.println("Display status:"+ status);
+		//boolean status=driver.findElement(By.id("logo")).isDisplayed();
+				//System.out.println("Display status:"+ status);
+				
+				//linkText & partialLinkText   --  only for link
+				
+				//driver.findElement(By.linkText("Tablets")).click();   //linkText  //preferable
+				driver.findElement(By.partialLinkText("Tab")).click();  //partialLinkText
+
 
 
 		
