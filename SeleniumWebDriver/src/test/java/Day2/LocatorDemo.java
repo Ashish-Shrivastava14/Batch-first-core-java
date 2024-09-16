@@ -38,8 +38,14 @@ public class LocatorDemo {
 				//System.out.println(headerLinks.size()); // 7
 				
 		//tagname
-				List<WebElement> links=driver.findElements(By.tagName("a"));
-				System.out.println(links.size());
+				//List<WebElement> links=driver.findElements(By.tagName("a"));
+				//System.out.println(links.size());
+		
+		List<WebElement> images=driver.findElements(By.tagName("img"));
+			System.out.println(images.size()); //18
+			
+
+		
 				
 
 				
